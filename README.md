@@ -1,34 +1,26 @@
 # Ecommerce Automation Testing Framework
 
-## Project Overview
-This project demonstrates an end-to-end automation testing framework built using Selenium WebDriver, Java, TestNG, and Maven.  
-The framework follows the Page Object Model (POM) design pattern.
+## 📌 Project Overview
+This project is an end-to-end Selenium automation testing framework built to test an e-commerce web application.  
+It covers automated UI test scenarios along with manual test cases and bug reports.
 
-## Application Under Test
-https://automationexercise.com
-
-## Tech Stack
-- Java 17
+## 🛠 Tech Stack
+- Java
 - Selenium WebDriver
 - TestNG
 - Maven
-- Page Object Model (POM)
 - Git & GitHub
+- Eclipse IDE
 
-## Framework Structure
-- base → Browser setup and teardown
-- pages → Page Object classes
-- tests → TestNG test cases
+## 🏗 Framework Design
+- Page Object Model (POM)
+- BaseTest for WebDriver setup
+- Test classes for execution
+- TestNG for test management
 
-## Test Scenarios Automated
-- Valid login functionality
-- Page title verification
+## ✅ Automated Test Scenarios
+- Valid Login Test
+- Invalid Login Test
+- Add to Cart (if applicable)
 
-## How to Run Tests
-1. Clone the repository
-2. Open project in Eclipse
-3. Right-click on test class
-4. Run as → TestNG Test
-
-## Author
-Nehali M Rane
+## 📂 Project Structure
